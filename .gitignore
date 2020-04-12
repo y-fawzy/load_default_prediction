@@ -131,6 +131,9 @@ dmypy.json
 # data folder
 /data/*
 
-#pickle
-/notebooks/2-wrangling/*.pkl
-/notebooks/2-wrangling/*.db
+
+# Ignore pickles and db
+*.pkl
+**/*.pkl
+*.db
+**/*.db
