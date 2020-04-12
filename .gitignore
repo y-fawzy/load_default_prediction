@@ -135,5 +135,9 @@ dmypy.json
 # Ignore pickles and db
 *.pkl
 **/*.pkl
+
+*.pickle
+**/*.pickle
+
 *.db
 **/*.db
